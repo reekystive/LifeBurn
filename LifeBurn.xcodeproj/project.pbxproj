@@ -7,23 +7,71 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0576C4D12B98260300B8C6EC /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0576C4D02B98260300B8C6EC /* WidgetKit.framework */; };
+		0576C4D32B98260300B8C6EC /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0576C4D22B98260300B8C6EC /* SwiftUI.framework */; };
+		0576C4D62B98260300B8C6EC /* WidgetExtensionBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576C4D52B98260300B8C6EC /* WidgetExtensionBundle.swift */; };
+		0576C4D82B98260300B8C6EC /* WidgetExtensionLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576C4D72B98260300B8C6EC /* WidgetExtensionLiveActivity.swift */; };
+		0576C4DA2B98260300B8C6EC /* WidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576C4D92B98260300B8C6EC /* WidgetExtension.swift */; };
+		0576C4DC2B98260300B8C6EC /* AppIntent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0576C4DB2B98260300B8C6EC /* AppIntent.swift */; };
+		0576C4DE2B98260400B8C6EC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0576C4DD2B98260400B8C6EC /* Assets.xcassets */; };
+		0576C4E22B98260400B8C6EC /* WidgetExtensionExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = 0576C4CE2B98260300B8C6EC /* WidgetExtensionExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
 		05C358D12B96F10A0061C4F1 /* LifeBurnApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C358D02B96F10A0061C4F1 /* LifeBurnApp.swift */; };
 		05C358D32B96F10A0061C4F1 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 05C358D22B96F10A0061C4F1 /* ContentView.swift */; };
 		05C358D72B96F10C0061C4F1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C358D62B96F10C0061C4F1 /* Assets.xcassets */; };
 		05C358DA2B96F10C0061C4F1 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05C358D92B96F10C0061C4F1 /* Preview Assets.xcassets */; };
-		DEF633FA2B97052B00F932C0 /* WidgetExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = DEF633F92B97052B00F932C0 /* WidgetExtension.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		0576C4E02B98260400B8C6EC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05C358C52B96F10A0061C4F1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0576C4CD2B98260300B8C6EC;
+			remoteInfo = WidgetExtensionExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		0576C4E32B98260400B8C6EC /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				0576C4E22B98260400B8C6EC /* WidgetExtensionExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		0576C4CE2B98260300B8C6EC /* WidgetExtensionExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = WidgetExtensionExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		0576C4D02B98260300B8C6EC /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		0576C4D22B98260300B8C6EC /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		0576C4D52B98260300B8C6EC /* WidgetExtensionBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtensionBundle.swift; sourceTree = "<group>"; };
+		0576C4D72B98260300B8C6EC /* WidgetExtensionLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtensionLiveActivity.swift; sourceTree = "<group>"; };
+		0576C4D92B98260300B8C6EC /* WidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtension.swift; sourceTree = "<group>"; };
+		0576C4DB2B98260300B8C6EC /* AppIntent.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppIntent.swift; sourceTree = "<group>"; };
+		0576C4DD2B98260400B8C6EC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0576C4DF2B98260400B8C6EC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		05C358CD2B96F10A0061C4F1 /* LifeBurn.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = LifeBurn.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		05C358D02B96F10A0061C4F1 /* LifeBurnApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LifeBurnApp.swift; sourceTree = "<group>"; };
 		05C358D22B96F10A0061C4F1 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		05C358D62B96F10C0061C4F1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		05C358D92B96F10C0061C4F1 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
-		DEF633F92B97052B00F932C0 /* WidgetExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WidgetExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		0576C4CB2B98260300B8C6EC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0576C4D32B98260300B8C6EC /* SwiftUI.framework in Frameworks */,
+				0576C4D12B98260300B8C6EC /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05C358CA2B96F10A0061C4F1 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -34,10 +82,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0576C4CF2B98260300B8C6EC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				0576C4D02B98260300B8C6EC /* WidgetKit.framework */,
+				0576C4D22B98260300B8C6EC /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0576C4D42B98260300B8C6EC /* WidgetExtension */ = {
+			isa = PBXGroup;
+			children = (
+				0576C4D52B98260300B8C6EC /* WidgetExtensionBundle.swift */,
+				0576C4D72B98260300B8C6EC /* WidgetExtensionLiveActivity.swift */,
+				0576C4D92B98260300B8C6EC /* WidgetExtension.swift */,
+				0576C4DB2B98260300B8C6EC /* AppIntent.swift */,
+				0576C4DD2B98260400B8C6EC /* Assets.xcassets */,
+				0576C4DF2B98260400B8C6EC /* Info.plist */,
+			);
+			path = WidgetExtension;
+			sourceTree = "<group>";
+		};
 		05C358C42B96F10A0061C4F1 = {
 			isa = PBXGroup;
 			children = (
 				05C358CF2B96F10A0061C4F1 /* LifeBurn */,
+				0576C4D42B98260300B8C6EC /* WidgetExtension */,
+				0576C4CF2B98260300B8C6EC /* Frameworks */,
 				05C358CE2B96F10A0061C4F1 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,6 +118,7 @@
 			isa = PBXGroup;
 			children = (
 				05C358CD2B96F10A0061C4F1 /* LifeBurn.app */,
+				0576C4CE2B98260300B8C6EC /* WidgetExtensionExtension.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -55,7 +128,6 @@
 			children = (
 				05C358D02B96F10A0061C4F1 /* LifeBurnApp.swift */,
 				05C358D22B96F10A0061C4F1 /* ContentView.swift */,
-				DEF633F92B97052B00F932C0 /* WidgetExtension.swift */,
 				05C358D62B96F10C0061C4F1 /* Assets.xcassets */,
 				05C358D82B96F10C0061C4F1 /* Preview Content */,
 			);
@@ -73,6 +145,23 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		0576C4CD2B98260300B8C6EC /* WidgetExtensionExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0576C4E62B98260400B8C6EC /* Build configuration list for PBXNativeTarget "WidgetExtensionExtension" */;
+			buildPhases = (
+				0576C4CA2B98260300B8C6EC /* Sources */,
+				0576C4CB2B98260300B8C6EC /* Frameworks */,
+				0576C4CC2B98260300B8C6EC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = WidgetExtensionExtension;
+			productName = WidgetExtensionExtension;
+			productReference = 0576C4CE2B98260300B8C6EC /* WidgetExtensionExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
 		05C358CC2B96F10A0061C4F1 /* LifeBurn */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 05C358DD2B96F10C0061C4F1 /* Build configuration list for PBXNativeTarget "LifeBurn" */;
@@ -80,10 +169,12 @@
 				05C358C92B96F10A0061C4F1 /* Sources */,
 				05C358CA2B96F10A0061C4F1 /* Frameworks */,
 				05C358CB2B96F10A0061C4F1 /* Resources */,
+				0576C4E32B98260400B8C6EC /* Embed Foundation Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				0576C4E12B98260400B8C6EC /* PBXTargetDependency */,
 			);
 			name = LifeBurn;
 			productName = LifeBurn;
@@ -100,6 +191,9 @@
 				LastSwiftUpdateCheck = 1520;
 				LastUpgradeCheck = 1520;
 				TargetAttributes = {
+					0576C4CD2B98260300B8C6EC = {
+						CreatedOnToolsVersion = 15.2;
+					};
 					05C358CC2B96F10A0061C4F1 = {
 						CreatedOnToolsVersion = 15.2;
 					};
@@ -119,11 +213,20 @@
 			projectRoot = "";
 			targets = (
 				05C358CC2B96F10A0061C4F1 /* LifeBurn */,
+				0576C4CD2B98260300B8C6EC /* WidgetExtensionExtension */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		0576C4CC2B98260300B8C6EC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0576C4DE2B98260400B8C6EC /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05C358CB2B96F10A0061C4F1 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -136,11 +239,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		0576C4CA2B98260300B8C6EC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0576C4D82B98260300B8C6EC /* WidgetExtensionLiveActivity.swift in Sources */,
+				0576C4DC2B98260300B8C6EC /* AppIntent.swift in Sources */,
+				0576C4D62B98260300B8C6EC /* WidgetExtensionBundle.swift in Sources */,
+				0576C4DA2B98260300B8C6EC /* WidgetExtension.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		05C358C92B96F10A0061C4F1 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DEF633FA2B97052B00F932C0 /* WidgetExtension.swift in Sources */,
 				05C358D32B96F10A0061C4F1 /* ContentView.swift in Sources */,
 				05C358D12B96F10A0061C4F1 /* LifeBurnApp.swift in Sources */,
 			);
@@ -148,7 +261,71 @@
 		};
 /* End PBXSourcesBuildPhase section */
 
+/* Begin PBXTargetDependency section */
+		0576C4E12B98260400B8C6EC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0576C4CD2B98260300B8C6EC /* WidgetExtensionExtension */;
+			targetProxy = 0576C4E02B98260400B8C6EC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
 /* Begin XCBuildConfiguration section */
+		0576C4E42B98260400B8C6EC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAP6NNQHV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reeky.LifeBurn.WidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0576C4E52B98260400B8C6EC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_TEAM = NAP6NNQHV6;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = WidgetExtension/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = WidgetExtension;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 17.2;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = org.reeky.LifeBurn.WidgetExtension;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
 		05C358DB2B96F10C0061C4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -271,6 +448,7 @@
 		05C358DE2B96F10C0061C4F1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -306,6 +484,7 @@
 		05C358DF2B96F10C0061C4F1 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -341,6 +520,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		0576C4E62B98260400B8C6EC /* Build configuration list for PBXNativeTarget "WidgetExtensionExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0576C4E42B98260400B8C6EC /* Debug */,
+				0576C4E52B98260400B8C6EC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		05C358C82B96F10A0061C4F1 /* Build configuration list for PBXProject "LifeBurn" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
