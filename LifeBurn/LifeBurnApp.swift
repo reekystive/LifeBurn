@@ -5,8 +5,8 @@
 //  Created by ReekyStive on 2024-03-05.
 //
 
-import SwiftUI
 import SwiftData
+import SwiftUI
 
 @main
 struct LifeBurnApp: App {
